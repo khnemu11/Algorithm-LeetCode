@@ -22,9 +22,6 @@ class Solution {
                 }
             }
         }
-		
-		
-        
         return answer;
     }
 }
