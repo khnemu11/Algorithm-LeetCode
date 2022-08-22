@@ -15,8 +15,10 @@ class Solution {
         
         while(curr !=null){
             ListNode next = curr.next;
-            //save previous node's next
+            //save previous node value in curr
             curr.next= prev;
+            
+            //next
             prev=curr;
             curr=next;
         }
