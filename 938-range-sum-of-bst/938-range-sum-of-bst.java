@@ -16,9 +16,7 @@
 class Solution {
     public int rangeSumBST(TreeNode root, int low, int high) {
     	int result =0;
-    	
-    	TreeNode curr;
-    	
+
     	if(root.val>=low && root.val<=high) {
     		result= root.val;
     	}
