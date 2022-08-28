@@ -5,8 +5,7 @@ class Solution {
     	for(int i=0;i<words.length;i++) {
     		words[i]=words[i].toLowerCase();
     		if(words[i].length()>2) {
-    			char first = words[i].charAt(0);
-    			words[i] = Character.toUpperCase(first)+words[i].substring(1);
+    			words[i] = words[i].substring(0,1).toUpperCase()+words[i].substring(1);
     		}
     	}
     	String result = String.join(" ", words);
